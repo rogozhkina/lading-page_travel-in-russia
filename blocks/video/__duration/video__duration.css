@@ -1,0 +1,54 @@
+
+ .video__duration {
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 500;
+    letter-spacing: .3em;
+    padding-top: 91px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    color: white;
+    margin: 0;
+ }
+
+ .video__duration {
+    color: white;
+    position: relative;
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+
+    .video__duration {
+        padding-top: 52px;
+    }
+
+ 
+}
+
+
+
+@media (max-width: 768px) {
+
+
+
+    .video__duration {
+        padding-top: 14px;
+    }
+
+}
+
+
+@media (max-width: 425px) {
+
+
+    .video__duration {
+        padding-top: 0px;
+    }
+
+
+
+}

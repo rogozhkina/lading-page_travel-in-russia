@@ -1,0 +1,38 @@
+
+.comments__subtitle {
+    font-size: 24px;
+    line-height: 35px;
+    max-width: 640px;
+    padding-top: 37px;
+    padding-bottom: 64px;
+    margin: 0 auto;
+    box-sizing: inherit;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+
+    .comments__subtitle {
+        padding-bottom: 0;
+        padding-top: 31px;
+    }
+
+
+}
+
+
+
+@media (max-width: 425px) {
+
+
+    .comments__subtitle {
+        padding-bottom: 0;
+        padding-top: 26px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+}

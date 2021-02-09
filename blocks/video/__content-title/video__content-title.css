@@ -1,0 +1,37 @@
+
+
+ .video__content-title {
+    max-width: 722px;
+    font-size: 72px;
+    line-height: 78px;
+    font-weight: 900;
+    margin: 0 auto;
+ }
+
+
+@media (max-width: 768px) {
+
+
+    .video__content-title {
+        font-size: 42px;
+        line-height: 46px;
+        max-width: 431px;
+    }
+
+}
+
+
+
+
+@media (max-width: 425px) {
+
+
+
+    .video__content-title {
+        font-size: 32px;
+        line-height: 35px;
+        padding-top: 30px;
+    }
+
+
+}

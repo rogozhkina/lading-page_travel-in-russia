@@ -1,0 +1,25 @@
+
+
+.comments__author {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 900;
+    margin: 0;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+
+    .comments__author {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 13px auto 24px auto;
+    }
+
+
+
+}
+

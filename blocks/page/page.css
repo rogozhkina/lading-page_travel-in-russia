@@ -1,0 +1,18 @@
+
+
+.page {
+    background-color: #2A2C2F;
+    max-width: 1440px;
+    color: #ffffff;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+

@@ -1,0 +1,39 @@
+
+
+.lead__caption {
+    max-width: 636px;
+    margin: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 4px;
+    text-align: left;
+    box-sizing: inherit;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    .lead__caption {
+        margin-top: 10px;
+        margin-left: 19px;
+    }
+
+
+
+
+@media (max-width: 425px) {
+
+
+
+    .lead__caption {
+        margin-top: 0px;
+    }
+
+}

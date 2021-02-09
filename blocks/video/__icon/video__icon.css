@@ -1,0 +1,31 @@
+@import url('./_type/_play/video__icon_type_play.css');
+  
+  .video__icon {
+    color: white;
+    position: relative;
+}
+
+
+@media (max-width: 768px) {
+
+
+
+    .video__icon {
+        padding-top: 15px;
+    }
+
+
+}
+
+
+
+@media (max-width: 425px) {
+
+
+
+    .video__icon {
+        padding-top: 20px;
+    }
+
+
+}

@@ -1,0 +1,32 @@
+
+ .video__container {
+    display: grid;
+    grid-gap: 18px;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1184px;
+    margin: 0 auto;
+    text-align: left;
+    box-sizing: initial;
+ }
+
+
+@media (max-width: 768px) {
+
+
+    .video__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}
+
+
+@media (max-width: 425px) {
+
+
+    .video__container {
+        grid-template-columns: 1fr;
+    }
+
+
+}

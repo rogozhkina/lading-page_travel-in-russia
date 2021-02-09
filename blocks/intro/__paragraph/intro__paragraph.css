@@ -1,0 +1,40 @@
+
+.intro__paragraph {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    text-align: left;
+    max-width: 683px;
+    box-sizing: inherit;
+    padding-top: 38px;
+}
+
+
+@media (max-width: 768px) {
+
+
+    .intro__paragraph {
+        max-width: 720px;
+        font-size: 14px;
+        line-height: 24px;
+        width: 98%;
+        margin: 0;
+        padding-top: 36px;
+    }
+
+}
+
+
+
+@media (max-width: 425px) {
+
+
+
+    .intro__paragraph {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+
+
+}

@@ -1,0 +1,50 @@
+
+
+ .photo-grid__item {
+    /* width: 284px; */
+    height: 188px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+
+    .photo-grid__item {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+
+
+
+    .photo-grid__item {
+        height: 232px;
+    }
+
+
+}
+
+
+
+
+@media (max-width: 425px) {
+
+
+
+    .photo-grid__item {
+        height: 232px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+}

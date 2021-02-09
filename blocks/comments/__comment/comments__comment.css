@@ -1,0 +1,36 @@
+
+
+.comments__comment {
+    text-align: left;
+    max-width: 382px;
+    }
+
+
+@media (max-width: 768px) {
+
+
+    .comments__comment {
+        display: grid;
+        max-width: 382px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 44px;
+    }
+
+
+}
+
+
+@media (max-width: 425px) {
+
+
+
+    .comments__comment {
+        display: grid;
+        max-width: 382px;
+        margin: 0 auto;
+        text-align: left;
+        margin-bottom: 44px;
+    }
+
+}

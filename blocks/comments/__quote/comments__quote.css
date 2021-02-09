@@ -1,0 +1,25 @@
+
+
+.comments__guote {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0px 0 11px 0;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+
+    .comments__guote {
+        order: 2;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: left;
+    }
+
+
+}
+

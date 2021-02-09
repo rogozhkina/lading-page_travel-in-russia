@@ -1,0 +1,30 @@
+
+
+.lead__image {
+    width: 100%;
+    box-sizing: inherit;
+    height: 554px;
+    object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+
+
+
+    .lead__image {
+        height: 420px;
+    }
+
+}
+
+
+
+@media (max-width: 425px) {
+
+
+
+    .lead__image {
+        height: auto;
+    }
+}

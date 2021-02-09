@@ -1,0 +1,45 @@
+
+
+.comments__container {
+    display: grid;
+    grid-gap: 19px;
+    grid-template-columns: repeat(3,1fr);
+    box-sizing: inherit;
+}
+
+
+@media (max-width: 1024px) {
+
+
+    .comments__container {
+        grid-gap: 19px;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    .comments__container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+}
+
+
+
+@media (max-width: 425px) {
+
+
+    .comments__container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 43px;
+    }
+
+
+}

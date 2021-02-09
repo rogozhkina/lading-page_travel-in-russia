@@ -1,0 +1,59 @@
+
+ .video__title {
+    font-size: 36px;
+    line-height: 39px;
+    font-weight: 900;
+    padding-bottom: 11px;
+    margin-left: 30px;
+    width: 322px;
+    margin: 0 auto 0 30px;
+ }
+
+  
+  .video__title {
+    color: white;
+    position: relative;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+
+    .video__title {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+
+}
+
+
+
+@media (max-width: 705px) {
+
+
+
+    .video__title {
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 162px;
+    }
+
+}
+
+
+
+
+@media (max-width: 420px) {
+
+
+
+    .video__title {
+        font-size: 24px;
+        line-height: 26px;
+        min-width: 253px;
+    }
+
+}

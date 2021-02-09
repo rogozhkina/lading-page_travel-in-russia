@@ -1,0 +1,32 @@
+
+
+.intro__infos {
+    text-align: left;
+    box-sizing: inherit;
+    padding-top: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    .intro__infos {
+        padding-top: 24px;
+    }
+
+}
+
+
+
+
+@media (max-width: 425px) {
+
+
+
+    .intro__infos {
+        padding-top: 3px;
+    }
+
+
+}

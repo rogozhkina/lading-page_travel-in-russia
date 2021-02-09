@@ -1,0 +1,76 @@
+@import url('./__cover-bg/cover__cover-bg.css');
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__title/cover__title.css');
+
+
+.cover {
+    max-width: 1184px;
+    background-image: url('../../images/cover.jpg');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+    width: 100%;
+    height: 594px;
+    object-fit: cover;
+    margin-top: 108px;
+}
+
+
+.cover::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: .5;
+  }
+  
+  .cover:hover::before {
+    display: block;
+    opacity: .8;
+  }
+ 
+
+
+@media (max-width: 1024px) {
+
+  
+    .cover {
+        max-width: 1045px;
+    }
+
+
+}
+
+
+
+@media (max-width: 768px) {
+
+   
+    .cover {
+        max-width: 768px;
+        height: auto;
+        margin-top: 74px;
+    }
+
+  
+}
+
+
+
+@media (max-width: 425px) {
+
+  
+    .cover {
+        max-width: 375px;
+        height: auto;
+        object-fit: cover;
+        margin-top: 43px;
+        box-sizing: border-box;
+    }
+
+}

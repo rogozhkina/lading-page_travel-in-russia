@@ -1,0 +1,29 @@
+
+
+.comments__image {
+    height: 97px;
+    border-radius: 100%;
+    margin-bottom: 35px;
+}
+
+
+@media (max-width: 768px) {
+
+
+    .comments__image {
+        margin: 0 auto;
+    }
+
+}
+
+
+@media (max-width: 425px) {
+
+
+    .comments__image {
+        margin: 0 auto;
+    }
+
+
+
+}

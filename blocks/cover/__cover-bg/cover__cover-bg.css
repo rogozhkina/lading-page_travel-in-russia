@@ -1,0 +1,38 @@
+
+.cover__cover-bg {
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+}
+
+
+  .cover__cover-bg {
+    color: white;
+    position: relative;
+  }
+
+
+@media (max-width: 768px) {
+
+
+
+    .cover__cover-bg {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+}
+
+
+
+@media (max-width: 425px) {
+
+
+
+    .cover__cover-bg {
+        width: 100%;
+    }
+
+
+}
